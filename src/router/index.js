@@ -14,7 +14,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      redirect: { name: 'FilePublish' }
+      redirect: '/FilePublish',
+      // alias: '/'
     },
     {
       path: '/FilePublish',

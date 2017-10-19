@@ -65,29 +65,28 @@
   </div>
 </template>
 <script>
-import data from './util/mock'
-import Bar from '#/Bar/Bar'
+import data from "./util/mock";
+import Bar from "#/Bar/Bar";
 export default {
-  name: 'app',
+  name: "app",
   data() {
     return {
       list: {}
-    }
+    };
   },
   created() {
-    this.$http.get("/category/get_category.do").then(res => {
-      var res = res.body
-      this.seller = res
-    }, res => {
-    })
-
+    this.$http.get("/category/get_category.do").then(
+      res => {
+        var res = res.body;
+        this.seller = res;
+      },
+      res => {}
+    );
   },
   components: {
-    Bar,
+    Bar
   }
-
-
-}
+};
 </script>
 
 <style lang="scss">
