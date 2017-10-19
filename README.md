@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # my-project
 
 > study vue
@@ -19,3 +20,7 @@ npm run build --report
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+# -
+VUE组件化和单页应用的使用
+>>>>>>> 9094f6ee627323d9221e7284ced01ffa8ecef62a
